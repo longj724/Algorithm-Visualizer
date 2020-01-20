@@ -1,0 +1,36 @@
+#us-map{
+  display: block;
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 25vw;
+  width: 50vw;
+  height: 100%;
+}
+
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+#runAlgorithm {
+  z-index: 2;
+  float: right;
+}
+
+#resetMap {
+  display: block;
+  float: right;
+}
